@@ -67,7 +67,7 @@ export const LinkProjects = styled.button`
 `;
 
 export const Logo = styled.div`
-  width: 50%;
+  width: 0%;
   display: flex;
   align-items: center;
   justify-content: center;
