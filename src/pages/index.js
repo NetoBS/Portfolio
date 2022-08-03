@@ -1,8 +1,31 @@
-import Head from 'next/head'
-import Image from 'next/image'
+
+import { 
+  Container, 
+  Content, 
+  Infos, 
+  Name, 
+  Function, 
+  Intro, 
+  LinkProjects, 
+  Logo, 
+  Img 
+} from '../../styles/indexStyle'
 
 export default function Home() {
   return (
-    <h1>teste</h1>
+    <Container>
+      <Content>
+        <Infos>
+          <Name>Olá, sou Neto Sousa</Name>
+          <Function>FullStack Developer</Function>
+          <Intro>
+            Graduação em Sistema de Informação,
+            tenho experiência em desenvolvimento Web
+            (React, JS e outros), mobile e criação de
+            conteúdo para o YouTube
+          </Intro>
+        </Infos>
+      </Content>
+    </Container>
   )
 }
