@@ -9,19 +9,19 @@ export default function Contact() {
       <Content>
         <ItemContact 
           IconFa={FaLinkedin} 
-          LinkContact="https://www.linkedin.com/in/william-l-9b6625102" 
+          LinkContact="" 
         />
         <ItemContact 
           IconFa={FaFacebook} 
-          LinkContact="https://www.facebook.com/william.lucasdossantos.5" 
+          LinkContact="" 
         />
         <ItemContact 
           IconFa={FaInstagram} 
-          LinkContact="https://www.instagram.com/william_lucass_/" 
+          LinkContact="" 
         />
         <ItemContact 
           IconFa={FaEnvelope} 
-          LinkContact="william.dev.contato@gmail.com" 
+          LinkContact="netosousa29@yahoo.com" 
         />
       </Content>
     </Container>
