@@ -1,5 +1,14 @@
 import React, { useState } from 'react';
-import { Container, Title, NavLinks, Ancora, Content, Menu, CloseSidebar, ContentTitle, SubTitle } from './style'
+import { 
+  Container, 
+  NavLinks, 
+  Ancora, 
+  Content, 
+  Menu, 
+  CloseSidebar,
+  HeaderContainer
+} from './style'
+
 import { FaBars, FaTimes } from 'react-icons/fa'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
@@ -17,29 +26,23 @@ export default function Header() {
 return (
     <Container>
       <Content>
-        <ContentTitle>
-          <Title>
-            Neto Sousa
-          </Title>
-          <SubTitle>
-            Portfolio Pessoal
-          </SubTitle>
-        </ContentTitle>
         <Menu>
           <FaBars onClick={showSiderbar} />
         </Menu>
-        <NavLinks sidebar={sidebar}>
-          <CloseSidebar onClick={showSiderbar}><FaTimes /></CloseSidebar>
-          <Link href="/">
-            <Ancora className={activeLink('')} onClick={showSiderbar}>Home</Ancora>
-          </Link>
-          <Link href="projects">
-            <Ancora className={activeLink('projects')} onClick={showSiderbar}>Projetos</Ancora>
-          </Link>
-          <Link href="contact">
-            <Ancora className={activeLink('contact')} onClick={showSiderbar}>Contato</Ancora>
-          </Link>
-        </NavLinks>
+        <HeaderContainer>
+          <NavLinks sidebar={sidebar}>
+            <CloseSidebar onClick={showSiderbar}><FaTimes /></CloseSidebar>
+            <Link href="/">
+              <Ancora className={activeLink('')} onClick={showSiderbar}>Home</Ancora>
+            </Link>
+            <Link href="projects">
+              <Ancora className={activeLink('projects')} onClick={showSiderbar}>Projetos</Ancora>
+            </Link>
+            <Link href="contact">
+              <Ancora className={activeLink('contact')} onClick={showSiderbar}>Contato</Ancora>
+            </Link>
+          </NavLinks>
+        </HeaderContainer>
       </Content>
     </Container>
   )

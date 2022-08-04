@@ -17,7 +17,7 @@ export default function Home() {
       <Content>
         <Infos>
           <Logo>
-            <img src="/image/NewLogo.png" alt="logo" />
+            <img src="/image/NewLogo2.png" alt="logo" />
           </Logo>
           <NameAndRole 
             initial={{ opacity: 0 }} 

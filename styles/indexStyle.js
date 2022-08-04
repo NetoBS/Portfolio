@@ -37,6 +37,7 @@ export const Infos = styled.div`
 export const NameAndRole = styled(motion.div)`
   font-size: 30px;
   font-weight: 500;
+  color: #696969;
   margin-bottom: 10px;
   @media (max-width: 760px) {
     font-size: 25px;
@@ -44,13 +45,13 @@ export const NameAndRole = styled(motion.div)`
 
   p {
     font-size: 30px;
-    color: lightgray;
+    color: #808080;
     margin-bottom: 10px;
   }
 `;
 
 export const Intro = styled(motion.div)`
-  color: lightgray;
+  color: #808080;
   text-align: justify;
   @media (max-width: 760px) {
     font-size: 15px;

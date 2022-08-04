@@ -1,5 +1,14 @@
 import styled from 'styled-components';
 
+export const HeaderContainer = styled.div`
+  height: 80px;
+  width: 1120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #75ecc4;
+`
+
 export const Container = styled.div`
   height: 100px;
   display: flex;
@@ -14,10 +23,6 @@ export const Content = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-`;
-
-export const Title = styled.div`
-  font-size: 30px;
 `;
 
 export const NavLinks = styled.nav`
@@ -45,11 +50,11 @@ export const NavLinks = styled.nav`
 
 export const Ancora = styled.a`
   font-size: 20px;
-  height: 100px;
+  height: 80px;
   transition: 0.3s;
   
   &.active {
-    background-color: black;
+    background-color: #f8f8ff;
   }
   @media (min-width: 560px) {
     align-items: center;
@@ -80,9 +85,3 @@ export const CloseSidebar = styled.div`
     display: flex;
   }
 `;
-
-export const ContentTitle = styled.div`
-  text-align: end;
-`;
-
-export const SubTitle = styled.span``;
