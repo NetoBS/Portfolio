@@ -27,7 +27,7 @@ export const Content = styled.div`
 
 export const Infos = styled.div`
   text-align: start;
-  width: 50%;
+  width: 80%;
   display: grid;
   @media (max-width: 760px) {
     width: 90%;
@@ -69,8 +69,8 @@ export const LinkProjects = styled.button`
   }
 `;
 
-export const Logo = styled.div`
-  width: 0%;
+export const Logo = styled(motion.div)`
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;

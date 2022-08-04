@@ -16,6 +16,9 @@ export default function Home() {
     <Container>
       <Content>
         <Infos>
+          <Logo>
+            <img src="/image/NewLogo.png" alt="logo" />
+          </Logo>
           <NameAndRole 
             initial={{ opacity: 0 }} 
             animate={{ opacity: 1 }} 
@@ -39,9 +42,7 @@ export default function Home() {
             <LinkProjects>PROJETOS <FaArrowRight /></LinkProjects>
           </Link>
         </Infos>
-        <Logo>
-          <img src="/image/logo.png" alt="logo" />
-        </Logo>
+        
       </Content>
     </Container>
   )
