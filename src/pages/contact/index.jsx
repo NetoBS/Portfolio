@@ -9,7 +9,7 @@ export default function Contact() {
       <Content>
         <ItemContact 
           IconFa={FaLinkedin} 
-          LinkContact="" 
+          LinkContact="https://www.linkedin.com/in/neto-sousa-086948247/" 
         />
         <ItemContact 
           IconFa={FaFacebook} 

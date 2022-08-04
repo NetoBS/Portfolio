@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 export const Container = styled.div`
   display: flex;
@@ -33,20 +34,22 @@ export const Infos = styled.div`
   }
 `;
 
-export const Name = styled.span`
-  font-size: 40px;
+export const NameAndRole = styled(motion.div)`
+  font-size: 30px;
   font-weight: 500;
+  margin-bottom: 10px;
   @media (max-width: 760px) {
     font-size: 25px;
   }
+
+  p {
+    font-size: 30px;
+    color: lightgray;
+    margin-bottom: 10px;
+  }
 `;
 
-export const Function = styled.span`
-  color: lightgray;
-  margin-bottom: 10px;
-`;
-
-export const Intro = styled.span`
+export const Intro = styled(motion.div)`
   color: lightgray;
   text-align: justify;
   @media (max-width: 760px) {
