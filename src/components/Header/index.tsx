@@ -8,6 +8,7 @@ function Header() {
         <Container>
             <ul>
                 <NavLink title="Home" path="/" />
+                <NavLink title="Projects" path="/projetos" />
             </ul>
         </Container>
     );
