@@ -3,15 +3,14 @@ import Header from "../components/Header";
 import HomeHero from "../components/HomeHero";
 
 
-import GlobalStyles from '../styles/global';
-
 function Home() {
   return (
     <HomeContainer>
-       <Header />
-      <HomeHero />
-      
-      <GlobalStyles />
+      <Header />
+
+      <main className="container">
+        <HomeHero />
+      </main>
   
     </HomeContainer>
   );

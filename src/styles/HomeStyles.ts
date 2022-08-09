@@ -12,5 +12,3 @@ export const HomeContainer = styled.div`
     gap: 8rem;
   }
 `;
-
-export const Head = styled.div``;
