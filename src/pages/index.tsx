@@ -2,7 +2,7 @@ import { HomeContainer } from "../styles/HomeStyles";
 
 import Header from "../components/Header";
 import HomeHero from "../components/HomeHero";
-import AboutMe from "../components/AboutMe";
+import Experience from "../components/Experiences";
 
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
 
       <main className="container">
         <HomeHero />
-        <AboutMe />
+        <Experience />
       </main>
   
     </HomeContainer>
