@@ -26,7 +26,7 @@ export const Container = styled.section`
     > button {
         background: ${({ theme }) => theme.primary};
         padding: 0.8rem 3rem;
-        border-radius: 0.5;
+        border-radius: 0.5rem;
         border: none;
         transition: 0.5s;
 

@@ -2,24 +2,31 @@ import Link from 'next/link';
 import { AiOutlineRightCircle } from 'react-icons/ai'
 import { ProjectContainer } from './styles';
 
-export default function ProjectItem() {
+interface ProjectProps {
+    title: string;
+    type: string;
+    slug: string;
+    img: string;
+}
+
+export default function ProjectItem({ title, type, slug, img }: ProjectProps) {
     return (
-        <ProjectContainer imgUrl="https://nubank.com.br/images-cms/1649856968-people-working-together-lg.jpg?w=1152&dpr=1&auto=compress&fm=webp">
+        <ProjectContainer imgUrl={img}>
             <section>
                 <div className='overlay' />
                 <div className='text'>
-                    <h1>Projeto 01</h1>
-                    <h2>- Website</h2>
+                    <h1>{title}</h1>
+                    <h2>- {type}</h2>
                 </div>
             </section>
 
             <button type="button">
-                <Link href="/projetos">
+                <Link href={`/projetos/${slug}`}>
                     <a>
                         Ver mais <AiOutlineRightCircle />
                     </a>
                 </Link>
             </button>
         </ProjectContainer>
-    )
+    );
 }
