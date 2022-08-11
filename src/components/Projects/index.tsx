@@ -1,5 +1,8 @@
+
+
 import SectionTitle from "../SectionTitle";
 import ProjectItem from "./ProjectsItem";
+
 import { Container } from './styles';
 
 function Projects() {
@@ -9,7 +12,11 @@ function Projects() {
 
             <section>
                 <ProjectItem />
+                <ProjectItem />
+                <ProjectItem />
             </section>
+
+         
         </Container>
     );
 }

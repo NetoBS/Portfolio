@@ -4,7 +4,7 @@ import { ProjectContainer } from './styles';
 
 export default function ProjectItem() {
     return (
-        <ProjectContainer>
+        <ProjectContainer imgUrl="https://nubank.com.br/images-cms/1649856968-people-working-together-lg.jpg?w=1152&dpr=1&auto=compress&fm=webp">
             <section>
                 <div className='overlay' />
                 <div className='text'>

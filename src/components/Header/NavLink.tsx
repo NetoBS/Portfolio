@@ -11,8 +11,6 @@ export default function NavLink({ title, path }: Props) {
     const router = useRouter();
 
     const isActive = router.pathname === path;
-    console.log(router.pathname)
-
 
     return (
         <NavLinkContainer isActive={isActive}>
