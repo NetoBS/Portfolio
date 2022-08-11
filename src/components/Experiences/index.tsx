@@ -10,15 +10,15 @@ function Experience() {
 
             <section>
                 <ExperienceItem
-                    title="Web Design"
-                    description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. maxime!"
-                />
-                <ExperienceItem
                     title="Web Developer"
                     description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. maxime!"
                 />
                 <ExperienceItem
                     title="Developer Mobile"
+                    description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. maxime!"
+                />
+                <ExperienceItem
+                    title="Web Design"
                     description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. maxime!"
                 />
             </section>

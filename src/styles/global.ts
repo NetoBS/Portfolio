@@ -27,8 +27,8 @@ export default createGlobalStyle`
   }
 
   img {
-    width: 20%;
-    max-width: 20%;
+    width: 40%;
+    max-width: 40%;
   }
 
   ul {
