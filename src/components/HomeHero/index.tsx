@@ -30,7 +30,7 @@ function HomeHero() {
                             Função: <span className='blue'>Dev Front-end,</span>
                         </div>
                         <div>
-                            Empresa: <span className='blue'>Cidade Alta</span>
+                            cidade: <span className='blue'>Fortaleza-CE</span>
                         </div>
                         {'\u007B'}
                     </CodeItem>

@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import HomeHero from "../components/HomeHero";
 import Experience from "../components/Experiences";
 import Projects from "../components/Projects";
+import Conhecimentos from "../components/Conhecimentos";
 
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
         <HomeHero />
         <Experience />
         <Projects />
+        <Conhecimentos />
       </main>
   
     </HomeContainer>
