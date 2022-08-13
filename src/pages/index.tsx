@@ -5,7 +5,7 @@ import HomeHero from "../components/HomeHero";
 import Experience from "../components/Experiences";
 import Projects from "../components/Projects";
 import Conhecimentos from "../components/Conhecimentos";
-
+import Footer from "../components/Footer"
 
 function Home() {
   return (
@@ -18,6 +18,8 @@ function Home() {
         <Projects />
         <Conhecimentos />
       </main>
+
+      <Footer />
   
     </HomeContainer>
   );
