@@ -1,13 +1,14 @@
 import Header from "../../components/Header";
-import { ProjectContainer } from "../../styles/ProjectsStyles";
+import { ProjectsContainer } from "../../styles/ProjectsStyles";
 
-export default function Projetos() {
+export default function Projects() {
     return (
-        <ProjectContainer>
+        <ProjectsContainer>
             <Header />
+            
             <main className="container">
                 <p>oi</p>
             </main>
-        </ProjectContainer>
-    )
+        </ProjectsContainer>
+    );
 }

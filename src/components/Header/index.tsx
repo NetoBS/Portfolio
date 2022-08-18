@@ -1,4 +1,3 @@
-import { link } from 'fs';
 import NavLink from './NavLink';
 import { Container } from './styles';
 
@@ -8,8 +7,7 @@ function Header() {
         <Container>
             <ul>
                 <NavLink title="Home" path="/" />
-                <NavLink title="Projects" path="/projectos" />
-                <NavLink title="Contact" path="/contato" />
+                <NavLink title="Projects" path="/Projects" />
             </ul>
         </Container>
     );

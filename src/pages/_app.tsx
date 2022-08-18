@@ -2,7 +2,6 @@ import { ThemeProvider } from 'styled-components';
 import NextNprogress from 'nextjs-progressbar';
 
 import theme from '../styles/theme';
-import Home from './index'
 import GlobalStyles from '../styles/global';
 
 function MyApp({ Component, pageProps }) {
