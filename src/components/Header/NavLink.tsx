@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import  { NavLinkContainer } from './styles'
 import { useRouter } from 'next/router'
+import  { NavLinkContainer } from './styles'
 
 interface Props {
     title: string;
@@ -14,7 +14,7 @@ export default function NavLink({ title, path }: Props) {
 
     return (
         <NavLinkContainer isActive={isActive}>
-            <Link href={path}>
+            <Link href="{path}">
                 <a>{title}</a>
             </Link>
         </NavLinkContainer>

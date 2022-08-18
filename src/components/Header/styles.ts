@@ -1,11 +1,11 @@
 import { lighten } from 'polished';
 import styled from 'styled-components';
 
-interface NavLinkContainer {
+interface NavLinkProps {
     isActive: boolean;
 }
 
-export const Container = styled.div`
+export const Container = styled.header`
     width: 100%;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ export const Container = styled.div`
     }
 `;
 
-export const NavLinkContainer = styled.li<NavLinkContainer >`
+export const NavLinkContainer = styled.li<NavLinkProps>`
     a {
         text-transform: uppercase;
         color: ${props => 

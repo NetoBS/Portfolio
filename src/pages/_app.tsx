@@ -5,7 +5,7 @@ import theme from '../styles/theme';
 import Home from './index'
 import GlobalStyles from '../styles/global';
 
-function MyApp() {
+function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
        <NextNprogress
@@ -15,8 +15,7 @@ function MyApp() {
         height={3}
         showOnShallow
       />
-
-      <Home />
+      <Component {...pageProps} />
       <GlobalStyles />
     </ThemeProvider>
   );
