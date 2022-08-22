@@ -32,7 +32,7 @@ function Projects() {
             </section>
 
             <button type="button">
-                <Link href="/projetos">
+                <Link href="/Projects">
                     <a>Ver todos os projetos</a>
                 </Link>
             </button>
