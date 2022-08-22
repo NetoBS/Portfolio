@@ -10,13 +10,13 @@ interface ProjectItemProps {
 
 function ProjectItem ({ title, type, imgUrl, slug }: ProjectItemProps) {
     return (
-        <Container>
+        <Container imgUrl={imgUrl}>
             <Link href={`/Project/${slug}`}>
                 <a>
                     <div className='overlay' />
                     <section>
                         <h1>{title}</h1>
-                        <h1>{type}</h1>
+                        <h2>{type}</h2>
                     </section>
                 </a>
             </Link>

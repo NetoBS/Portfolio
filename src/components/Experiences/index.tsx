@@ -21,6 +21,10 @@ function Experience() {
                     title="Web Design"
                     description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. maxime!"
                 />
+                <ExperienceItem
+                    title="Web Design"
+                    description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. maxime!"
+                />
             </section>
         </Container>
     )
